@@ -8,7 +8,6 @@ public class Lab {
      * Instantiate any object using the 'new' keyword.
      * It doesn't matter what type of object you use.
      * If you're not feeling creative, you can use the Object class.
-     *
      * Example:
      *      Type reference = new Type();
      *      return reference;
@@ -18,6 +17,8 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Lab box = new Lab();
+
+        return "empty";
     }
 }
